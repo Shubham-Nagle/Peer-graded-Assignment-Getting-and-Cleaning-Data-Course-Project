@@ -1,0 +1,24 @@
+Code book
+This is the code book for tidy data set
+
+1. Url = Download link
+2. Path = Directory Path
+3. Files = Recursive file creation
+4. x_train, y_train, x_test, y_test, subject_train and subject_test contain the data from the downloaded files.
+5. x_data, y_data and subject_data merge the previous datasets to further analysis.
+6. rSub = rbind subs
+7. rLabel = rbind labels
+8. rSet = rbind set
+9. rSetNames = row set names
+10. dataCombine = combine columns
+11. merge = cbind the rest of the data
+12. activityLabels = Activity Labels data
+13. y_test_label - match y_test labels with corresponding activities
+14. tidy_test - binding test subject, test activity and test set
+15. y_train_label - match y_train labels with corresponding activities
+16. tidy_train - binding train subject, train activity and train set
+17. tidy_set - merged test set and train set
+18. tidy_mean_std - data set with only measrements on the mean and standard deviation for each measurement
+19. tidy_avg - independent tidy data set with the average of each variable for each activity and each subject.
+20. and Some Activity Labels
+
